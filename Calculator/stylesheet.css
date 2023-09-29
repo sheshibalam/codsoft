@@ -1,0 +1,74 @@
+body{ 
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  
+    url("writing-pad-g21e69f46b_1920.jpg"); 
+} 
+ 
+.container{ 
+    border: 3px solid black; 
+    width: 380px; 
+    background-color: rgb(188, 183, 183); 
+    border-radius: 10px; 
+    padding: 10px 0; 
+    text-align: center; 
+    font-family: 'Roboto Flex', sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(rgb(106, 103, 103),rgb(82, 202, 206)); 
+    margin: auto; 
+} 
+ 
+.container h3{ 
+    font-weight: 600px; 
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+} 
+ 
+.container p{ 
+    color: rgb(51, 47, 47); 
+    margin-top:0 ; 
+} 
+ 
+.row{ 
+    margin: 8px 0; 
+} 
+ 
+.row input{ 
+    margin: 0; 
+    padding: 10px 0px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    width: 320px; 
+    color: rgb(2, 52, 2); 
+    background-color: rgb(235, 202, 135); 
+    text-align: right; 
+} 
+ 
+.button{ 
+    padding: 20px; 
+    margin: 0 11px; 
+    border: 2px solid black; 
+    border-radius: 9px; 
+    cursor: pointer; 
+    font-family: 'Roboto Flex', sans-serif; 
+    width: 60px; 
+    color: azure; 
+    background-color: black; 
+} 
+ 
+.center{ 
+    text-align: center; 
+    color: #fff; 
+} 
+ 
+#row1 button{ 
+    background-color: rgb(50, 205, 143, 0.8); 
+    color: black; 
+} 
+ 
+.row .operator{ 
+    background-color: rgb(50, 205, 143, 0.8); 
+    color: black; 
+}
